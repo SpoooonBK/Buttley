@@ -1,0 +1,179 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:baselineAligned="true"
+    android:id="@+id/Container">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="4">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:id="@+id/leftColumn">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/left1"
+                android:adjustViewBounds="true"
+                android:focusable="false"
+                android:layout_weight="1"
+                android:background="#ff61ff4d"
+                android:clickable="true"
+                android:onClick="playSoundOnClick" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/left2"
+                android:adjustViewBounds="true"
+                android:focusable="false"
+                android:layout_weight="1"
+                android:background="#ffff74f8"
+                android:clickable="true"
+                android:onClick="playSoundOnClick" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/left3"
+                android:adjustViewBounds="true"
+                android:focusable="false"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/left4"
+                android:adjustViewBounds="true"
+                android:focusable="false"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/left5"
+                android:adjustViewBounds="true"
+                android:focusable="false"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:id="@+id/midColumn">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mid1"
+                android:adjustViewBounds="true"
+                android:focusable="false"
+                android:layout_weight="1"
+                android:background="#fffcff42"
+                android:clickable="true"
+                android:onClick="playSoundOnClick" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mid2"
+                android:adjustViewBounds="true"
+                android:focusable="false"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mid3"
+                android:adjustViewBounds="true"
+                android:focusable="false"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mid4"
+                android:adjustViewBounds="true"
+                android:focusable="false"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mid5"
+                android:adjustViewBounds="true"
+                android:focusable="false"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:id="@+id/rightColumn">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/right1"
+                android:adjustViewBounds="true"
+                android:focusable="false"
+                android:layout_weight="1"
+                android:background="#ffff8168"
+                android:clickable="true"
+                android:onClick="playSoundOnClick" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/right2"
+                android:adjustViewBounds="true"
+                android:focusable="false"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/right3"
+                android:adjustViewBounds="true"
+                android:focusable="false"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/right4"
+                android:adjustViewBounds="true"
+                android:focusable="false"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/right5"
+                android:adjustViewBounds="true"
+                android:focusable="false"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"></LinearLayout>
+</LinearLayout>
