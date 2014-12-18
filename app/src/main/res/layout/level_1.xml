@@ -3,7 +3,7 @@
     android:layout_height="fill_parent"
     android:orientation="vertical"
     android:baselineAligned="true"
-    android:id="@+id/Container">
+    android:id="@+id/level_1_root">
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -22,18 +22,19 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/left1"
+                android:id="@+id/level_1_left1"
                 android:adjustViewBounds="true"
                 android:focusable="false"
                 android:layout_weight="1"
                 android:background="#ff61ff4d"
                 android:clickable="true"
-                android:onClick="playSoundOnClick" />
+                android:onClick="playSoundOnClick"
+                android:src="@drawable/blue_bean" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/left2"
+                android:id="@+id/level_1_left2"
                 android:adjustViewBounds="true"
                 android:focusable="false"
                 android:layout_weight="1"
@@ -44,26 +45,29 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/left3"
+                android:id="@+id/level_1_left3"
                 android:adjustViewBounds="true"
                 android:focusable="false"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="#ff2fc6ff" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/left4"
+                android:id="@+id/level_1_left4"
                 android:adjustViewBounds="true"
                 android:focusable="false"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="#ffff3a4d" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/left5"
+                android:id="@+id/level_1_left5"
                 android:adjustViewBounds="true"
                 android:focusable="false"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="#ffab24ff" />
 
         </LinearLayout>
 
@@ -77,45 +81,51 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/mid1"
+                android:id="@+id/level_1_mid1"
                 android:adjustViewBounds="true"
                 android:focusable="false"
                 android:layout_weight="1"
                 android:background="#fffcff42"
                 android:clickable="true"
-                android:onClick="playSoundOnClick" />
+                android:onClick="playSoundOnClick"
+                android:src="@drawable/green_bean" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/mid2"
+                android:id="@+id/level_1_mid2"
                 android:adjustViewBounds="true"
                 android:focusable="false"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="#ff9740ff"
+                android:src="@drawable/yellow_bean" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/mid3"
+                android:id="@+id/level_1_mid3"
                 android:adjustViewBounds="true"
                 android:focusable="false"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="#ffffab5a" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/mid4"
+                android:id="@+id/level_1_mid4"
                 android:adjustViewBounds="true"
                 android:focusable="false"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="#ff2bff1e" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/mid5"
+                android:id="@+id/level_1_mid5"
                 android:adjustViewBounds="true"
                 android:focusable="false"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="#ff5a43ff" />
         </LinearLayout>
 
         <LinearLayout
@@ -128,45 +138,50 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/right1"
+                android:id="@+id/level_1_right1"
                 android:adjustViewBounds="true"
                 android:focusable="false"
                 android:layout_weight="1"
                 android:background="#ffff8168"
                 android:clickable="true"
-                android:onClick="playSoundOnClick" />
+                android:onClick="playSoundOnClick"
+                android:src="@drawable/red_bean" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/right2"
+                android:id="@+id/level_1_right2"
                 android:adjustViewBounds="true"
                 android:focusable="false"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="#fffcff72" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/right3"
+                android:id="@+id/level_1_right3"
                 android:adjustViewBounds="true"
                 android:focusable="false"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="#ffff42bc" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/right4"
+                android:id="@+id/level_1_right4"
                 android:adjustViewBounds="true"
                 android:focusable="false"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="#ff8efdff" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/right5"
+                android:id="@+id/level_1_right5"
                 android:adjustViewBounds="true"
                 android:focusable="false"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="#ffb6ff88" />
         </LinearLayout>
 
     </LinearLayout>

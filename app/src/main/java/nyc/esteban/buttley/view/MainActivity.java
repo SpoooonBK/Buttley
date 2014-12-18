@@ -8,12 +8,14 @@ import android.view.MenuItem;
 import android.view.View;
 
 import nyc.esteban.buttley.R;
-import nyc.esteban.buttley.controller.GameSoundPlayer;
+import nyc.esteban.buttley.controller.LevelLoader;
+import nyc.esteban.buttley.controller.SoundPlayer;
+import nyc.esteban.buttley.model.game.levels.LevelIDEnum;
 
 
 public class MainActivity extends Activity {
 
-    GameSoundPlayer player;
+    SoundPlayer player;
     public static final String TAG = "Buttley";
 
 
@@ -22,8 +24,9 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_view_main);
-        player = new GameSoundPlayer(this);
+        setContentView(R.layout.activity_view_level_1);
+        LevelLoader levelLoader = LevelLoader.initializeLevelLoader();
+        levelLoader.loadLevel(LevelIDEnum.LEVEL_1);
     }
 
     public void playSoundOnClick(View view){
